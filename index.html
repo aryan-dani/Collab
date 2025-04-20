@@ -12,6 +12,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
+    <!-- Add jsPDF library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
   </head>
   <body>
     <header>
@@ -46,7 +48,11 @@
         <ul id="medication-details">
           <!-- Details will be populated by JavaScript -->
         </ul>
-        <button id="tts-button">Read Aloud</button>
+        <div class="button-group">
+          <button id="tts-button">Read Aloud</button>
+          <button id="download-pdf-button">Download PDF</button>
+          <!-- Added Download Button -->
+        </div>
       </section>
     </main>
 
