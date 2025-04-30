@@ -1,8 +1,6 @@
 # DoseFlow
 
 <div align="center">
-  <img src="https://via.placeholder.com/200x200.png?text=DoseFlow" width="200" height="200" alt="DoseFlow Logo"/>
-  <br>
   <h3>AI-Powered Accessible Medication Guide</h3>
   
   [![Version](https://img.shields.io/badge/version-1.0.0-brightgreen.svg)](https://github.com/yourusername/doseflow)
